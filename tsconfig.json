@@ -1,0 +1,23 @@
+{
+    "include": [
+      "jsx/**/*.jsx"
+    ],
+    "exclude": [
+      "./lib/**/*",
+      "./node_modules"
+    ],
+    "compilerOptions": {
+      "target": "es2015",
+      "module": "es2015",
+      "jsx": "react",
+      "allowJs": true,
+      "sourceMap": true,
+      "outDir": "./js",
+      "rootDir": "./jsx",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    }
+  }
+  

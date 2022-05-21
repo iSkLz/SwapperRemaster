@@ -1,0 +1,27 @@
+META
+width 10
+height 10
+keys 2
+swaps 10
+
+TILES
+white key silver
+blue locked blank
+red locked rlock chip olive
+blue swap
+blue swapi give
+red swapi take
+-
+white key silver
+blue locked blank
+red locked rlock chip olive
+blue swap
+blue swapi give
+red swapi take
+-
+white key silver
+blue locked blank
+red locked rlock chip olive
+blue swap
+blue swapi give
+red swapi take

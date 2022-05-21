@@ -1,0 +1,33 @@
+@for $i from 0 to 10 {
+    .gridlayer-#{$i} {
+        z-index: #{$i};
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: var(--size);
+        height: var(--size);
+    }
+}
+
+.tilesgrid {
+    // --zoom: x;
+    // --width: x;
+    // --height: x;
+
+    --size: calc(var(--zoom) * 32px);
+    --gap: calc(var(--zoom) * 1px);
+
+    background-color: var(--white);
+    display: grid;
+    padding: 0px;
+    grid-template-columns: repeat(var(--width), var(--size));
+    grid-auto-rows: var(--size);
+
+    width: calc((var(--size) + var(--gap)) * var(--width) - var(--gap));
+
+    gap: var(--gap);
+    margin: 0px;
+    border-style: solid;
+    border-width: var(--gap);
+    border-color: var(--white);
+}

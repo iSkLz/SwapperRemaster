@@ -1,0 +1,39 @@
+Tile:
+- Color (White/red/blue/purple/black/gray)
+- Lock (Locked/unlocked, white/purple are unlocked)
+
+Level:
+- Starting color, swaps, keys
+
+Swappers:
+- Target color
+(Left arrow shows starting color, right arrow shows target color)
+
+Neutral Swapper:
+- (Both arrows black)
+
+Swap Pickup:
+- Type (Add, substract)
+
+Bucket:
+- Target color
+
+Contact Key/Lock:
+- Type (Gold, silver, bronze)
+
+Remote Key/Lock
+- Type (Gold, silver, bronze)
+- Remote ID (Red, orange, yellow, green, aqua, blue, magenta)
+
+Portal
+- ID: Red, orange, yellow, green, aqua, blue, magenta
+
+remote/portal colors:
+red     bd515a
+blue    425bbd
+
+yellow  f3d040
+green   82aa28
+aqua    7cd8eb
+brown   7cd8eb
+olive   376129
